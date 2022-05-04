@@ -1,0 +1,29 @@
+.flex-row{
+    display: flex;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.icon-btn{
+    border-radius: 50%;
+    line-height: 1;
+    border: none;
+    padding: 1rem;
+    background-color: transparent;
+    font-size: 1.25rem;
+}
+
+.icon-btn:hover{
+    cursor: pointer;
+}
+
+.icon-btn-hover:hover{
+    background-color: var(--secondary-color-shadow);
+}
+
+a:link{
+    text-decoration: none;
+}

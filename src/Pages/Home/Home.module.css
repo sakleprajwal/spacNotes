@@ -1,0 +1,97 @@
+.editor__container{
+    margin: auto;
+    margin-top: 2rem;
+    max-width: 30rem;
+    width: 100%;
+    background-color: var(--secondary-color);
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.25), 0 2px 2px rgba(0,0,0,0.22);
+}
+
+.title__input{
+    width: 100%;
+    border: none;
+    font-family: var(--secondary-font);
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 1rem;
+}
+
+.show__editor{
+    display: block;
+}
+
+.hide__editor{
+    display: none;
+}
+
+.fixed__btn {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border: none;
+    font-size: 1rem;
+    position: fixed;
+    bottom: 4rem;
+    right: 3rem;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    box-shadow: 1px 3px 5px var(--ternary-color-shadow);
+  }
+
+.all__notes__section{
+    flex-wrap: wrap;
+    margin: 2rem 4rem;
+}
+
+.note__card{
+    position: relative;
+    width: 15rem;
+    height: max-content;
+    padding: 1rem;
+    margin: 1rem;
+    text-align: left;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.note__card__actions{
+    display: none;
+    font-size: 1rem;
+}
+
+.note__card:hover .note__card__actions{
+    display: flex;
+}
+
+.note__title{
+    font-weight: 500;
+    font-size: 1.1rem;
+    margin: 12px 0;
+}
+
+.note__text{
+    margin: 12px 0;
+}
+
+.note__tagpill{
+    margin: 12px 0;
+    padding: 4px 12px;
+    font-size: 0.8rem;
+    border-radius: 2rem;
+    width: max-content;
+    border: 1px solid var(--ternary-color);
+}
+
+.color__pallete{
+    position: absolute;
+    bottom: -1rem;
+}
+
+.show__pallete{
+    display: flex;
+}
+
+.hide__pallete{
+    display: none;
+}
