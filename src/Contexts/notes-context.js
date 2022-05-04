@@ -17,15 +17,7 @@ const NotesProvider = ({children}) => {
     if (ActiveNote.noteText === '<p><br></p>') {
         setActiveNote(initialNote)
     }
-
-    const [noteState, noteDispatch] = useReducer(noteReducer, {
-        noteslist: [],
-        archivedNotes: [],
-        trashedNotes: [],
-        pinnedNotes: [],
-    
-    });
-    
+        
 
     return (
         <notesContext.Provider value={{
