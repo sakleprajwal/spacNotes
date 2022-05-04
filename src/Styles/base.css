@@ -1,0 +1,16 @@
+@import url('https://pro.fontawesome.com/releases/v5.10.0/css/all.css');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@500&family=Poppins:wght@400;500;600;700&display=swap');
+
+:root {
+    --primary-color: #F2CD5D;
+    --primary-color-opaque: rgba(242, 205, 93, 0.5);
+    --secondary-color: #ffffff;
+    --secondary-color-shadow: #f1f1f1;
+    --ternary-color: #000000;
+    --ternary-color-shadow: #7a7a7a;
+    --ternary-color-opaque:rgba(0, 0, 0, 0.5);
+
+
+    --primary-font: 'Libre Franklin', sans-serif;
+    --secondary-font: 'Poppins', sans-serif;
+}

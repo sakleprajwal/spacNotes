@@ -1,0 +1,39 @@
+.sidebar__visible{
+    left: 0;
+    top: 4.5rem;
+}
+
+.sidebar__hide{
+    left: -100%;
+    top: 4rem;
+}
+
+.sidebar__container{
+    position: fixed;
+    padding: 0.5rem 0;
+    width: 15rem;
+    background: var(--secondary-color);
+}
+
+.sidebar__item{
+    padding: 1rem;
+    border-radius: 0 2rem 2rem 0;
+    color: var(--ternary-color);
+    font-family: var(--secondary-font);
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.sidebar__item:hover {
+    background-color: var(--secondary-color-shadow);
+}
+
+.sidebar__item__active {
+    background-color: var(--primary-color-opaque);
+}
+
+@media all and (max-width: 567px) {
+    .sidebar__container{
+        width: 100%;
+    }
+}
